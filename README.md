@@ -33,7 +33,7 @@ Each JSON file should be an array of objects with the following keys:
   },
   ...
 ]
-
+```
 
 
 # Scheduling
