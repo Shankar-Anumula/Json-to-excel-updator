@@ -11,7 +11,29 @@ This Python utility reads multiple JSON files containing employee utilisation da
 - Archives JSON files after processing.
 - Preserves all existing Excel formatting and formulas.
 
-## Folder Structure
+
+## JSON Input Format
+
+Each JSON file should be an array of objects with the following keys:
+
+```json
+[
+  {
+    "empid": "E123",
+    "team": "TeamA",
+    "lob": "LOB1",
+    "date": "2024-04-25",
+    "analysis": 2,
+    "design": 1,
+    "test execution": 3,
+    "regression": 0,
+    "demo": 1,
+    "leave": 0,
+    "downtime": 0
+  },
+  ...
+]
+
 
 
 # Scheduling
